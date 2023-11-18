@@ -1,4 +1,4 @@
-##########################################
+###############################
 
 Name-Diptangshu Chattopadhyay
 
@@ -6,7 +6,7 @@ Roll No.-2022mt93547
 
 Cross Platform App Development Assignment
 
-##########################################
+###############################
 
 Steps to host the App
 
@@ -22,17 +22,21 @@ BONUS FEATURE IMPLEMENTED-
 Task Deletion Feature
 
 APP STRUCTURE EXPLANATION
-###########################################
+################################
+
 Dependencies-The Todo app depends on the parse_server_sdk_flutter package, which provides functionalities to interact with Parse Server.
 
 
-#################################################
+################################
+
 Main Function- The main() function initializes the Parse SDK using our Parse Server credentials which are available at back4app dashboard. After initialization, it runs the Flutter app with a MaterialApp.
 
-#################################################
+################################
+
 Home Page-The Home class is a stateful widget representing the main screen of the app. It contains two mandatory TextField to input new to-do items and description along with a 'ADD' button to add. The list of to-do items and description are displayed below using a ListView.builder inside a FutureBuilder
 
-#################################################
+#################################
+
 Functions-
 
 addToDo(): Adds a new to-do item and description. If the input of either field is empty, it displays a an "Cannot be Empty" message.
@@ -51,13 +55,14 @@ After that it is setting the objectId of ParseObject that is to be be updated. I
 deleteTodo(): Simulates deleting a to-do item. The function makes a new instance of Parse Todo class with command ParseObject('Todo').
 Using the objectId property it sets objectId of ParseObject which is to be removed. Finally it calls the delete function, which will remove the task from Parse Dashboard database.
 
-##################################################
+################################
+
 UI Components
 Every to-do item and its description in the list is displayed in the form of a  ListTile.
 The title of the to-do, the description of to-do, a checkbox to mark completion status, and a delete button are displayed in each ListTile.
 Completion status of the to-do item is marked by the ticking of checkbox and the color of the leading CircleAvatar turning from yellow to green.
 
-##################################################
+##################################
 
 
 
