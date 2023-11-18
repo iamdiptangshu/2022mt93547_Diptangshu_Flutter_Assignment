@@ -2,9 +2,7 @@
 
 Name-Diptangshu Chattopadhyay
 
-Roll No.-2022mt93547
-
-Cross Platform App Development Assignment
+2022mt93547
 
 ###############################
 
