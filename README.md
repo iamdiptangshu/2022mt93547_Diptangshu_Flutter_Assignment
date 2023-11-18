@@ -11,8 +11,8 @@ Steps to host the App
 1) Download the Github repository
 2) Download, unzip and install Flutter 
 3) Open Environment Variable, and create a new full path to flutter\bin under Path variable
-4) Run flutter doctor to check all system dependencies to run the app are properly installed or not .
-5) Enter the downloaded repository directory and do flutter pub get 
+4) Run flutter doctor to check all system dependencies to run the app are properly installed or not 
+5) Enter the downloaded repository directory "assignment_todo" and do flutter pub get 
 6) Run the command flutter run
 7) Select any of the connected devices from the list
 
